@@ -11,7 +11,7 @@ jobs:
     steps:
       - name: Build code
         run:  |
-           cd /home/eldar
-           ls
+           cd /home/eldar/watchtower
+           docker-compose up -d
          
         

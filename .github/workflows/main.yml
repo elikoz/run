@@ -1,10 +1,6 @@
 name: Run Watchtower
 
-on:
-  push:
-    branches:
-      - main
-
+on: workflow_dispatch
 jobs:
   Deployment:
     runs-on: self-hosted

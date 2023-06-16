@@ -8,6 +8,6 @@ jobs:
       - name: Run docker-compose
         run:  |
            cd /home/eldar/watchtower
-           docker-compose up -d
+           docker-compose up
          
         
